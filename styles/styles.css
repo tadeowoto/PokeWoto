@@ -1,0 +1,272 @@
+root{
+    --sm: 12px;
+    --ms: 16px;
+    --lg: 18px;               
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+
+.cards-title{
+    margin-bottom: 10px;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    height: 95%;
+}
+
+.main-sections{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.card1{
+    padding: 10px;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    background-color: #20112F;
+}
+
+.card1 p, label{
+    color: white;
+}
+
+.card1-image img{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 230px;
+}
+
+.card1-info{
+    border-top: 1px solid white;
+    padding: 10px;
+}
+
+.select-gengar{
+    margin-top: 70px;
+}
+
+
+
+.card2{
+    padding: 10px;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    background-color: #DAA104;
+}
+
+.card2 p, label{
+    color: white;
+}
+
+.card2-image img{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 260px;
+}
+
+.card2-info{
+    border-top: 1px solid white;
+    padding: 10px;
+}
+
+.select-pikachu{
+    margin-top: 70px;
+}
+
+.card3{
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.card3{
+    padding: 10px;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    background-color: #082F61;
+}
+
+.card3 p, label{
+    color: white;
+}
+
+.card3-image img{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 200px;
+}
+
+.card3-info{
+    border-top: 1px solid white;
+    padding: 10px;
+}
+
+.select-moreno{
+    margin-top: 70px;
+}
+
+#boton-seleccionar {
+    margin-top: 60px;
+    background-color: #9b59b6; 
+    color: white; 
+    padding: 15px 30px; 
+    font-size: var(--lg); 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    font-family: 'Press Start 2P', cursive; 
+    transition: background-color 0.3s; 
+}
+
+#boton-seleccionar:hover {
+    background-color: #773892; 
+}
+
+
+
+
+
+
+
+.ataque-pokemon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    
+}
+
+.ataque-section{
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+
+}
+
+.ash-image{
+
+    width: 500px;
+
+}
+
+.buttons-container{
+
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+#boton-fuego{
+
+    padding: 30px;
+
+
+}
+
+#boton-fuego, #boton-agua, #boton-fantasma {
+    font-family: 'Press Start 2P', cursive; 
+    font-size: 14px;
+    padding: 10px 20px;
+    margin: 0;
+    border: 2px solid #ff79c6; 
+    border-radius: 5px;
+    background-color: #1f1c2c; 
+    color: #ff79c6; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+
+  #boton-fuego:hover, #boton-agua:hover, #boton-fantasma:hover {
+    background-color: #ff79c6; 
+    color: #1f1c2c; 
+    border-color: #1f1c2c; 
+  }
+  
+  #boton-fuego:disabled, #boton-agua:disabled, #boton-fantasma:disabled {
+    background-color: #444; 
+    color: #777; 
+    border-color: #777; 
+    cursor: not-allowed;
+  }
+
+
+
+#resultado{
+    background-color: #777;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+#reiniciar{
+    height: 50px;
+    width: 100%;
+}
+
+#boton-reiniciar{
+    font-family: 'Press Start 2P', cursive; 
+    font-size: 14px;
+    padding: 10px 20px;
+    margin: 0;
+    border: 2px solid #ff79c6; 
+    border-radius: 5px;
+    background-color: #1f1c2c; 
+    color: #ff79c6; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+#boton-reiniciar:hover{
+    background-color: #ff79c6; 
+    color: #1f1c2c; 
+    border-color: #1f1c2c;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
